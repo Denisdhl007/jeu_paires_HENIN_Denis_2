@@ -29,6 +29,23 @@ body {
     margin: 5vh 5vw;
 }
 
+.starsUl{
+    display: flex;
+    width: 18vw;
+    justify-content: space-around;
+    margin: 5px;
+    align-items: center;
+    height: 5vh;
+}
+
+.movesDiv{
+    display:flex;
+    font-size: 25px;
+}
+.movesDiv p {
+    margin: 0px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -75,7 +92,7 @@ h1 {
 
 .deck .card.open {
     transform: rotateY(0);
-    background: #02b3e4;
+    background: #d041ff;
     cursor: default;
 }
 
@@ -85,7 +102,7 @@ h1 {
 
 .deck .card.match {
     cursor: default;
-    background: #02ccba;
+    background: #06756b;
     font-size: 33px;
 }
 
@@ -94,9 +111,12 @@ h1 {
 
 
 .score-panel {
+    display: flex;
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .score-panel .stars {
@@ -111,13 +131,23 @@ h1 {
     display: inline-block;
 }
 
-.gold-star{color: gold}
+.gold-star{color: rgba(209, 13, 36, 0.877)}
 
 .score-panel .restart {
     float: right;
     cursor: pointer;
+    font-size: 20px;
+    margin: 15px;
 }
 
+.restart i{
+    color: rgb(255, 230, 0);
+    margin: 10px;
+}
+
+#basicUsage{
+    font-size: 20px;
+}
 /* Popup */
 .popup {
     background: #02ccba;
