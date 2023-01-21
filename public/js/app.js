@@ -1,6 +1,28 @@
 // Create a list that holds all of your cards
 
-let cardSymbols = ["fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bomb", "fa-bicycle", "fa-diamond", "fa-paper-plane-o", "fa-anchor", "fa-bolt", "fa-cube", "fa-leaf", "fa-bomb", "fa-bicycle"]
+
+
+
+let cardSymbols = [
+    "fa-diamond", 
+    "fa-paper-plane-o", 
+    "fa-anchor", 
+    "fa-bolt", 
+    "fa-cube", 
+    "fa-leaf", 
+    "fa-bomb", 
+    "fa-bicycle", 
+    "fa-diamond", 
+    "fa-paper-plane-o", 
+    "fa-anchor", 
+    "fa-bolt", 
+    "fa-cube", 
+    "fa-leaf", 
+    "fa-bomb", 
+    "fa-bicycle"
+    ];
+    
+
 let visibleCard;
 let firstCard;
 let secondCard;

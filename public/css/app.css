@@ -15,8 +15,9 @@ body {
     padding: 0;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(39, 32, 175) 0%, rgb(75, 42, 208) 13%, rgba(9,121,51,1) 35%, rgba(6,156,123,0.7777704831932774) 60%, rgba(0,212,255,1) 100%);
-    font-family:'Lucida Sans';
+    font-family:'Lucida Sans';    
 }
+
 
 .StructureDiv{
     margin-left: 6vw;
