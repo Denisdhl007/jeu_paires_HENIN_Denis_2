@@ -149,31 +149,51 @@ h1 {
 }
 /* Popup */
 .popup {
-    background: #02ccba;
+    background: #24ab83;
     z-index: 1;
     display: none;
     margin: 0 auto;
-    width: 100%; 
+    width: 85%; 
     height: 100%; 
-    position: fixed; 
-    left: 0;
-    top: 0;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 0%;
 }
 
-.content {
+/* .content {
+    display: flex;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.562);
     height: 100%;
     width: 100%;
     text-align: center;
     
+} */
+
+.popUpCongrats{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
+.content {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
 .close {
     color: #000;
     float: right;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
 }
 

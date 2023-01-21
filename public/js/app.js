@@ -1,8 +1,6 @@
 // Create a list that holds all of your cards
 
 
-
-
 let cardSymbols = [
     "fa-diamond", 
     "fa-paper-plane-o", 
@@ -21,7 +19,6 @@ let cardSymbols = [
     "fa-bomb", 
     "fa-bicycle"
     ];
-    
 
 let visibleCard;
 let firstCard;
@@ -127,7 +124,7 @@ function startGame(tempCard) {
         
         moveCounter();
     } else {
-        // Create object that's will have id and name
+        // Create object with id and name
         let item = {
             id: tempCard.getAttribute('id'),
             name: tempCard.getAttribute('name')
@@ -144,7 +141,7 @@ function startGame(tempCard) {
             matchCardnumber += 1;
             // console.log(matchCardnumber);
 
-            // check if finshed game and user win 
+            // check if finshed game and user wins
             gameOver();
         }
 
@@ -216,7 +213,7 @@ function moveCounter() {
 };
 
 
-// Function to  play Again
+// Function to play Again
 function playAgain() {
 
     let restartbtn = document.querySelector('.restart');
@@ -247,7 +244,7 @@ function rating() {
             ratingvalue = " Bien " + 1;
         } else if (movescount === 30) {
             star[0].classList.remove("gold-star");
-            ratingvalue = " C'est bien, essaie encore pour améliorer ta mémoire " + 1;
+            ratingvalue = " C'est bien, essaie pour améliorer ta mémoire " + 1;
         } else if (movescount <= 19) {
             ratingvalue = " Excellent " + 3;
         }
